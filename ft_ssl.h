@@ -10,11 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LEM_IN_H
-# define LEM_IN_H
+#ifndef FT_SSL_H
+# define ST_SSL_H
 
 # include "libft/libft.h"
 # include "libft/get_next_line.h"
 # include "libft/ft_printf.h"
+
+typedef struct			s_ssl
+{
+    int					sha256;
+    int					md5;
+}						t_ssl;
 
 #endif
