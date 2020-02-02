@@ -21,6 +21,11 @@ typedef struct			s_ssl
 {
     int					sha256;
     int					md5;
+    int                 flag_p;
+    int                 flag_q;
+    int                 flag_r;
+    int                 flag_s;
+
 }						t_ssl;
 
 #endif
